@@ -1,11 +1,11 @@
 import java.util.Scanner;
-class ReplaceAll{
+class ReplaceAllString{
 public static void main(String args[]){
 Scanner sc=new Scanner(System.in);
 String str=sc.nextLine();
-char ch=sc.next().charAt(0);
-String s=sc.valueof(ch);
-String rep=str.replaceAll(s);
+String c=sc.next();
+String r=sc.next();
+String rep=str.replaceAll(c,r);
 System.out.print(rep);
 }
 }
